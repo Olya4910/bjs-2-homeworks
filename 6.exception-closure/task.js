@@ -33,7 +33,7 @@ class Triangle {
     }
     get area() {
         const p = (this.a + this.b + this.c) / 2;
-        return +((p * (p - rhis.a) * (p - this.b) * (p - rhis.c)) ** 0.5).toFixed(3);
+        return +((p * (p - this.a) * (p - this.b) * (p - this.c)) ** 0.5).toFixed(3);
         
     }
 
